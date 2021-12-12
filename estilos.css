@@ -1,0 +1,106 @@
+.form_derecha {
+    float: right;
+    padding-left: 30px;
+    margin-top: 50px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.caja {
+    box-shadow: 1px 1px 30px 10px rgb(192, 22, 22);
+    border: #F2BF4E 5px solid;
+    border-radius: 7px;
+    background-color: rgb(230, 140, 140);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.caja p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+.caja input {
+    font-family: serif;
+}
+
+.caja label {
+    display: inline-block;
+    width: 80px;
+}
+
+.principal {
+    background-color: rgb(238, 179, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 1000px;
+    margin-left: 45px;
+    width: 70%;
+}
+
+
+/* Titulo*/
+
+.titulo {
+    margin-left: 40px;
+    padding-left: 30px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 35px;
+    letter-spacing: -2.2px;
+    word-spacing: 2.4px;
+    color: #F2BF4E;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    background-color: #d32525;
+    width: 400px;
+    border-radius: 8px;
+}
+
+
+/* MENU*/
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px 10px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+nav li:hover {
+    background-color: rgb(235, 94, 94);
+    color: rgb(255, 255, 255);
+}
+
+nav li {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    float: left;
+    width: 10%;
+    padding: 5px 10px;
+    background-color: #c3141c;
+    border: 1px solid #000;
+    text-align: center;
+    color: #ecae28;
+}
