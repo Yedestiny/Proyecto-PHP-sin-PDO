@@ -32,4 +32,8 @@ if (count($errores) == 0) {
 
 } 
 
-?>
+
+
+$servidorBD = "127.0.0.1";
+$nombreDB = "proyecto";
+$con = new mysqli($servidorBD, "angel", "angel", $nombreDB);
